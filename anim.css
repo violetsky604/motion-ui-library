@@ -279,7 +279,8 @@ body:not(.dark-mode) .card:hover {
   align-items: center; justify-content: center;
   animation: fadeIn 0.3s ease forwards;
 }
-.modal:target { display: flex; }
+
+.modal.show { display: flex; }
 
 .modal-content {
   background: var(--color-white);
